@@ -121,7 +121,7 @@ public class TodosTest {
         todos.add(meeting);
 
         Task[] expected = {};
-        Task[] actual = todos.search("абвгд");
+        Task[] actual = todos.search("вторник");
         Assertions.assertArrayEquals(expected, actual);
     }
 
